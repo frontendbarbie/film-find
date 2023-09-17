@@ -54,7 +54,7 @@ const HomePage = () => {
             <div className='header'>
                 <div className='logo'>
                     <img src={logo} alt='Logo' />
-                    <h2>FilmFind</h2>
+                    <h2>MovieBox</h2>
                 </div>
 
                 <Search onSearch={handleSearch} />

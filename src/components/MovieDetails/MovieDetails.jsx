@@ -44,7 +44,7 @@ const MovieDetails = () => {
                     onClick={changeColorOnClick}
                 />
             </div>
-            <p data-testid='movie-release-date'><span>Release Date (in UTC):</span> {formattedReleaseDate}</p>
+            <p data-testid='movie-release-date'>{formattedReleaseDate}</p>
             <p data-testid='movie-runtime'>{movieDetails.runtime}</p>
             <p data-testid='movie-overview'>{movieDetails.overview}</p>
             <a href="/" className="backButton">Back to Homepage</a>
