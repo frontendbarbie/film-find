@@ -1,0 +1,51 @@
+.movieDetails {
+    max-width: 800px;
+    margin: 100px auto;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titleFav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.favorite {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.movieDetails h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.movieDetails p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.movieDetails span {
+    font-weight: bold;
+}
+
+/* Style the "Go Back" button */
+.backButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.backButton:hover {
+    background-color: #000;
+    color: #fff;
+}

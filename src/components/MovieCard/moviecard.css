@@ -1,0 +1,45 @@
+.movieCard {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.movieCard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.movieCard h2 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #000;
+}
+
+.movieCard p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Hover effect to make cards slightly larger */
+.movieCard:hover {
+    transform: scale(1.05);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .movieCard {
+        font-size: 0.9rem;
+    }
+
+    .movieCard h2 {
+        font-size: 1rem;
+    }
+
+    .movieCard p {
+        font-size: 0.8rem;
+    }
+}
